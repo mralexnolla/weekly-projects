@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product reserach servey</title>
+</head>
+<body>
+    <div id="banner">
+        <img width="1600" height="400" src="https://thumbs.dreamstime.com/z/want-your-feedback-customer-feedbacks-survey-opinion-service-megaphone-hand-promotion-banner-vector-illustration-promotional-161574591.jpg" />
+    </div>
+   <!-- <embed type="image/jpg" width="1600" height="400" src="https://thumbs.dreamstime.com/z/want-your-feedback-customer-feedbacks-survey-opinion-service-megaphone-hand-promotion-banner-vector-illustration-promotional-161574591.jpg" /> -->
+   
+   <h1>Product reserach servey</h1>
+
+   <p>
+       Kindly fill the information below 
+   </p>
+
+   <ol>
+       <li>
+           <form action="#" method="Get">
+                <table>
+                    <thead>
+                        <h3>Great! So, what type of work do you do? *.</h3>
+                    </thead>
+
+                            <tbody>
+                                    <tr>
+                                        <td> 
+                                            <label for="product">Product &nbsp; &nbsp;</label> <br>
+                                            <input id="product" name="product" type="checkbox" value="product">
+                                        </td> 
+                                        <td>
+                                            <label for="marketing">Marketing  &nbsp; &nbsp;</label> <br>
+                                            <input id="marketing" name="marketing" type="checkbox" value="marketing">
+                                        </td>
+                                        <td>
+                                            <label for="sales">Sales  &nbsp; &nbsp;</label> <br>
+                                            <input id="sales" name="sales" type="checkbox" value="sales">
+                                        </td>
+                                        <td>
+                                            <label for="engineering">Engineering</label> <br>
+                                            <input id="engineering" name="engineering" type="checkbox" value="engineering">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td> 
+                                            <label for="design">Design</label> <br>
+                                            <input id="design" name="design" type="checkbox" value="design">
+                                        </td> 
+                                        <td>
+                                            <label for="cs">Customer Service</label> <br>
+                                            <input id="cs" name="cs" type="checkbox" value="customer service">
+                                        </td>
+                                        <td>
+                                            <label for="ceo">CEO</label> <br>
+                                            <input id="ceo" name="ceo" type="checkbox" value="ceo">
+                                        </td>
+                                        <td>
+                                            <label for="other">Other</label> <br>
+                                            <input id="other" name="other" type="checkbox" value="other">
+                                        </td>
+
+                                    </tr>
+                            </tbody>
+                        
+                    </table>
+                    <input id="submit1" type="submit" value="OK">
+            </form>
+       </li>
+       <br>
+        
+       
+
+       <li>
+        <div id="count">
+            <!-- This section will help to know evaluate the number of employees -->
+
+            <h3>And how many people work at your company?*</h3>
+
+            <form action="#" method="get">
+
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td> <label for="a">A: Just me</label> </td>
+                                <td> <input id="a" name="range" type="checkbox" value="range"> </td>
+                            </tr>
+                            <tr>
+                                <td> <label for="b">B: 1 to 10</label> </td>
+                                <td> <input id="b" name="range" type="checkbox" value="range"> </td>
+                            </tr>
+                            <tr>
+                                <td> <label for="c">C: 11 - 50</label> </td>
+                                <td> <input id="c" name="range" type="checkbox" value="range"> </td>
+                            </tr>
+                            <tr>
+                                <td> <label for="d">D: 51 - 250</label> </td>
+                                <td> <input id="d" name="range" type="checkbox" value="range"> </td>
+                            </tr>
+                            <tr>
+                                <td> <label for="e">C: more than 250</label> </td>
+                                <td> <input id="e" name="range" type="checkbox" value="range"> </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <input id="submit2" type="submit" value="Ok">
+
+            </form>
+
+        </div>
+       </li>
+
+       <br>
+
+       <li>
+           <div id="analytics">
+
+                <h3>Thanks. Does your company currently do marketing analytics?</h3>
+
+                <form action="#" method="GET">
+                    <table>
+                        <tr>
+                            <td> <label for="yes">Yes</label> </td>
+                            <td> <input id="yes" name="yes" type="radio" value="yes"> </td>
+                        </tr>
+                        <tr>
+                            <td> <label for="no">No</label> </td>
+                            <td> <input id="no" name="no" type="radio" value="no"> </td>
+                        </tr>
+                    </table>
+                    <input id="submit3" type="submit" value="Ok">
+                </form>
+
+           </div>
+       </li>
+
+       <br>
+
+       <li>
+           <div id="departments">
+
+                <h3>What department(s) are responsible for marketing analytics?*</h3>
+
+                <form action="#" method="GET">
+                    
+                    <label for="dep">Departments</label>
+                    <input id="dep" name="dept" list="dept">
+
+                    <datalist id="dept">
+                        <option value="Product">
+                        <option value="Marketing">
+                        <option value="Sales">
+                        <option value="Customer service">
+                        <option value="Research / Insigth / Stretegy">
+                        <option value="Others">
+
+                    </datalist>
+
+                </form>
+
+           </div>
+       </li>
+       
+   </ol>
+
+</body>
+</html>
