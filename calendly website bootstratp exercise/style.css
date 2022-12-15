@@ -65,3 +65,37 @@
     margin-left: 3px;
     margin-top: 10px;
 }
+
+.individualheroimg{
+    height: 450px;
+}
+
+.btnsign{
+    border-radius: 15px 0px;
+}
+
+.learnmore{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.bgimage{
+    background-image: url("img/background-4.png");
+    height: 300px;
+    
+    
+}
+
+.btnsignlight{
+    border-radius: 15px ;
+}
+
+.footerlinks a{
+    text-decoration: none;
+    color: #0B3558
+}
+
+.fmenu{
+    color: #0B3558
+}
+
