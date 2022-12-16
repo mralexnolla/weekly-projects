@@ -99,3 +99,22 @@
     color: #0B3558
 }
 
+.imgscroll{
+    width: 100px;
+    height: 100px;
+    margin: 0px 100px ;
+}
+
+.aliglogos{
+    margin-top: 50px;
+}
+
+.mrqee{
+    height: 200px;
+    margin-top: 20px;
+    background-color: #97c4ea;
+    display: flex;
+    align-items: center;
+}
+
+
